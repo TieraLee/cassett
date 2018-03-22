@@ -1,0 +1,11 @@
+Class Exercise #5
+
+Name: Tiera Lee, tlee320
+
+Describe any challenges you faced as well as any extra polish you applied (for the extra points):
+I initially had an issue determining how keep track of the position in the music, so for it will start
+in the right spot for various playback modes. After reading the documenation, I realized that the SamplePlayer
+object automatically saves the current spot. I also had a problem with getting the music to play after the button
+click sound, not during or before. When the music plays during or before the button click, it sounded unnatural and
+did not make a lot of sense.  It took some fooling around with an event handler to tell the program "after the button clicks
+then stop/play the music."
